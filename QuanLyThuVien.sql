@@ -1,0 +1,1 @@
+﻿SELECT u.UserID, u.Username, u.PasswordHash, u.Fullname, u.RoleID FROM Users u INNER JOIN Roles ON u. RoleID= u.RoleID WHERE u.Username='hamai';
